@@ -16,8 +16,8 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = '5596645259:AAE2G1n_3S0lAKdWPc1sggvEQ5VKhd3mXxQ'
-CHAT_ID = '@am4ha3kd'
+BOT_TOKEN = 'your bot token'
+CHAT_ID = 'your channel id'
 USERS_FILE = 'users.json'
 
 bot = telebot.TeleBot(BOT_TOKEN)
