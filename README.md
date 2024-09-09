@@ -35,16 +35,17 @@ Crypto Tracker is a Telegram bot that provides real-time cryptocurrency prices a
 
 1. Clone the repository: 
 git clone https://github.com/AmirIXI/crypto-tracker-telegram-bot
+cd crypto-tracker-telegram-bot
 
-2. Install the required packages:
+3. Install the required packages:
 pip install -r requirements.txt
 
 
-3. Create a `.env` file in the root directory and add your Telegram Bot Token and Chat ID:
+4. Create a `.env` file in the root directory and add your Telegram Bot Token and Chat ID:
 BOT_TOKEN=your_bot_token_here
 CHAT_ID=@your_channel_or_group_username
 
-4. Run the bot :)
+5. Run the bot :)
 
 ## ----------------------------------------------------
 
